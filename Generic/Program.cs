@@ -10,12 +10,12 @@ namespace Generic_Demo
         {
 
             Console.WriteLine("Please enter the first value");
-            int num1 = Convert.ToInt32(Console.ReadLine());
+            double num1 =Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Please enter the second value");
-            int num2 = Convert.ToInt32(Console.ReadLine());
+            double num2 = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Please enter the third value");
-            int num3 = Convert.ToInt32(Console.ReadLine());
-            int val = IntMax.MaximumNumber(num1, num2, num3);
+            double num3 = Convert.ToDouble(Console.ReadLine());
+            double val = FloatMax.MaximumNumber(num1, num2, num3);
             Console.WriteLine("{0}is Greater", val);
         }
     }
