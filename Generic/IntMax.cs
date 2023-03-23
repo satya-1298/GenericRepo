@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;s
+using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -26,7 +26,7 @@ namespace Generic_Demo
                 thirdvalue.CompareTo(firstvalue) >= 0 && thirdvalue.CompareTo(secondvalue) > 0 ||
                 thirdvalue.CompareTo(firstvalue) > 0 && thirdvalue.CompareTo(secondvalue) >= 0)
             {
-                return firstvalue;
+                return thirdvalue;
             }
             return firstvalue;
         }
